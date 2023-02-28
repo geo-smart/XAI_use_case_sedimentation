@@ -14,7 +14,7 @@ parts:
 
 - caption: Chapter One
   chapters:
-    - file: chapters/motivation
+    - file: chapters/scientific_motivation
 
 - caption: Chapter Two
   chapters:
