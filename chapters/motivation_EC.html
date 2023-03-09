@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Try something on your own &#8212; Use Case Template</title>
+    <title>Introduction &#8212; Use Case Template</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -53,8 +53,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Open questions" href="questions.html" />
-    <link rel="prev" title="Conclusion" href="conclusion_EC.html" />
+    <link rel="next" title="Interpretable Models" href="methods_EC.html" />
+    <link rel="prev" title="About the GeoSMART Use Case Library" href="about.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -133,9 +133,9 @@ const thebe_selector_output = ".output, .cell_output"
   Chapter One
  </span>
 </p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="motivation_EC.html">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Introduction
   </a>
  </li>
@@ -229,9 +229,9 @@ const thebe_selector_output = ".output, .cell_output"
   Chapter Ten (optional)
  </span>
 </p>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="todo.html">
    Try something on your own
   </a>
  </li>
@@ -347,7 +347,7 @@ title="Toggle navigation"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://mybinder.org/v2/gh/geo-smart/use_case_template/main?urlpath=lab/tree/book/chapters/todo.ipynb"
+        <a href="https://mybinder.org/v2/gh/geo-smart/use_case_template/main?urlpath=lab/tree/book/chapters/motivation_EC.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -407,7 +407,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/geo-smart/use_case_template/issues/new?title=Issue%20on%20page%20%2Fchapters/todo.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/geo-smart/use_case_template/issues/new?title=Issue%20on%20page%20%2Fchapters/motivation_EC.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -424,7 +424,7 @@ title="Open an issue"
       </li>
       
       <li>
-        <a href="https://github.com/geo-smart/use_case_template/edit/main/book/chapters/todo.ipynb"
+        <a href="https://github.com/geo-smart/use_case_template/edit/main/book/chapters/motivation_EC.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -452,7 +452,7 @@ title="Edit this page"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/chapters/todo.ipynb"
+        <a href="../_sources/chapters/motivation_EC.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -489,23 +489,60 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#scientific-motivation">
+   Scientific Motivation
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Try something on your own</h1>
+                <h1>Introduction</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#scientific-motivation">
+   Scientific Motivation
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -513,9 +550,23 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="try-something-on-your-own">
-<h1>Try something on your own<a class="headerlink" href="#try-something-on-your-own" title="Permalink to this headline">#</a></h1>
-<p>Interesting and meaningful tasks that the tutorials didn’t do, but you could try and they should be achievable with reasonably small amount of time and effort</p>
+  <p><a id='_motivation'></a></p>
+<section class="tex2jax_ignore mathjax_ignore" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h1>
+<p>Machine Learning (ML) has received lots of attention in the fields of computer vision, artificial intelligence, medicine, and many others. But, with so many different approaches, opinions, and models, it can feel overwhelming when first entering the field. In the earth sciences, we are primarily concerned with discovering how the natural world operates and the forces involved in the shaping it. While ML is a powerful prediction tool, little has been done to implement it as a tool for discovery, especially in the earth sciences. This is primarily due to many of the top performing ML algorithms being difficult to interpret intuitively.</p>
+<p>Other problems associated with complex, uninterpretable machine learning models can be manifold. First, troubles arise when we do not know which variables have the most and least influence on the expected outcome. This can become important when making decisions regarding which variables to include and exclude. For instance, if a variable minimally contributes to the predictive power of a model, then we can exclude that variable from the model to form a less complex model. A second problem lies in understanding the functional form of the variables in the machine learning model. This comes into importance if we are interested in how particular variables increase or decrease the expected outcome variable. For example, does an increase in some variable result in a quadratic increase in the outcome? Or an logarithmic decrease? Or a exponential increase?</p>
+<p>Fortunately, the field of <em>Explainable AI (XAI)</em> concerns itself with exactly what we seek as earth scientists: how are these ML models making predictions and what do they mean about the processes we seek to approximate? In this tutorial, we walk through how to use an interpretable ML model, use a more complex ML model, and apply a post-training explainability technique, specifically using a python package called <em>SHAP</em>, to better understand how our ML models are making predictions.</p>
+<p>Another goal of this tutorial is to provide a framework for machine learning on small datasets. When trying to model physical processes we often face the difficulty of accessing large amounts of data due to laborious collection techniques. The limitation of data becomes a problem when some of the state of the art machine learning algorithms require a large amount of data and find themselves over fitting when provided insufficient amounts of data.
+In the tutorial we make use of two models that work well on smaller datasets, specifically the Bayesian Linear Regression and the Gaussian Process Regression. We choose these two specific models because, first, both models provide smooth, continuous functions as opposed to step functions common in tree based models. Second, we can create a baseline model from the Bayesian Linear Regression, with the embedded assumption that vertical accretion is simply a linear function of the input variables. We can then test to see if a non-parametric machine learning model, a Gaussian Process Regression, improves any of our performance.</p>
+<section id="scientific-motivation">
+<h2>Scientific Motivation<a class="headerlink" href="#scientific-motivation" title="Permalink to this headline">#</a></h2>
+<p>Sediment is what builds are coastlines. However, the process of sedimentation is incredibly dynamic, constantly being removed, transported, and redeposited. This dynamism makes the prediction of sedimentation rates incredibly difficult. But, since the foundations of our communities are, literally, built upon deposited sediment, it is crucial to know how it moves.</p>
+<p>Using a comprehensive dataset of coastal marsh sedimentation rates derived from the Coastal Reference Monitoring System (CRMS), we want to discern the driving environmental factors related to sedimentation, as recorded by <em>vertical accretion rate</em> (Wagner and Haywood III 2022). Vertical accretion rate in our dataset is recorded as the height of sediment deposited above a datum which is then temporally averaged across 16 years, the total amount of time the CRMS dataset encapsulates. It records the product of the sedimentation processes that build our coastlines and combat land loss. Coastal Louisiana is no stranger to the delicate balance between land loss and sedimentation. Louisiana’s sediment budget has been diminished by upstream damming and the leveeing of the river systems, amplifying land loss caused by relative sea-level rise across the coast. The saying is that coastal Louisiana loses about an American football field worth of land every <strong>hour</strong>!</p>
+<p>Complementing vertical accretion rate measurements, the CRMS dataset provides additional biologic, hydrologic, and sedimentologic variables (TABLE 1) (Wagner and Haywood III 2022). We then augment the dataset by calculating our own Distance to Water, Distance to Rivers, Normalized Difference Vegetation Index (NDVI), and Total Suspended Sediment (TSS) to capture additional environmental factors that may influence vertical accretion rates. We want to use a statistical method to first identify the most salient features, then use a machine learning model to make predictions of vertical accretion rates and understand how environmental variables are able to capture the process of vertical accretion rate.</p>
+<p>All the data we use is openly available with descriptions at:</p>
+<p>CRMS: <a class="reference external" href="https://www.lacoast.gov/chart/Charting.aspx?laf=crms&amp;tab=2">https://www.lacoast.gov/chart/Charting.aspx?laf=crms&amp;tab=2</a><br />
+CIMS: <a class="reference external" href="https://cims.coastal.louisiana.gov/monitoring-data/">https://cims.coastal.louisiana.gov/monitoring-data/</a></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -545,17 +596,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="conclusion_EC.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="about.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Conclusion</p>
+            <p class="prev-next-title">About the GeoSMART Use Case Library</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="questions.html" title="next page">
+    <a class='right-next' id="next-link" href="methods_EC.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Open questions</p>
+        <p class="prev-next-title">Interpretable Models</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
