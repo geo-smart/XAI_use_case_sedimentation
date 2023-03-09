@@ -14,27 +14,27 @@ parts:
 
 - caption: Chapter One
   chapters:
-    - file: chapters/scientific_motivation
+    - file: chapters/motivation_EC
 
 - caption: Chapter Two
   chapters:
-    - file: chapters/methods
+    - file: chapters/methods_EC
 
 - caption: Chapter Three
   chapters:
-    - file: chapters/ESIP_preprocessing2
+    - file: chapters/data_EC
 
 - caption: Chapter Four
   chapters:
-    - file: chapters/development
+    - file: chapters/development_EC
 
 - caption: Chapter Five
   chapters:
-    - file: chapters/training
+    - file: chapters/training_EC
 
 - caption: Chapter Six
   chapters:
-    - file: chapters/evaluation
+    - file: chapters/evaluation_EC
 
 - caption: Chapter Seven
   chapters:
@@ -46,7 +46,7 @@ parts:
 
 - caption: Chapter Nine
   chapters:
-    - file: chapters/conclusion
+    - file: chapters/conclusion_EC
 
 - caption: Chapter Ten (optional)
   chapters:
